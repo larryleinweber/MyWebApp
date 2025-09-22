@@ -11,11 +11,11 @@ jobs:
         with:
           dotnet-version: 7.0.x
       - name: Install dependencies
-        run: dotnet restore
+        run: dotnet restore MyWebApp.csproj
       - name: Build
         run: dotnet build MyWebApp.csproj --no-restore --configuration Release
       - name: Test
-        run: dotnet test --no-build --configuration Release --verbosity normal
+        run: dotnet test MyWebApp.csproj --no-build --configuration Release --verbosity normal
 
 
 
