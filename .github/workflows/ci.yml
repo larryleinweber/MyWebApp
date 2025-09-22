@@ -15,10 +15,10 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Install dependencies
-        run: dotnet restore MyWebApp.csproj
+        run: dotnet restore
 
       - name: Build
-        run: dotnet build MyWebApp.csproj --no-restore --configuration Release
+        run: dotnet build --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test MyWebApp.csproj --no-build --configuration Release --verbosity normal
+        run: dotnet test --no-build --configuration Release --verbosity normal
