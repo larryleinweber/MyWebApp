@@ -25,3 +25,4 @@ C:\local\VSCode\MyWebApp\obj\Debug\net9.0\refint\MyWebApp.dll
 C:\local\VSCode\MyWebApp\obj\Debug\net9.0\MyWebApp.pdb
 C:\local\VSCode\MyWebApp\obj\Debug\net9.0\MyWebApp.genruntimeconfig.cache
 C:\local\VSCode\MyWebApp\obj\Debug\net9.0\ref\MyWebApp.dll
+C:\local\VSCode\MyWebApp\obj\Debug\net9.0\MyWebApp.sourcelink.json
